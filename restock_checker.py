@@ -10,8 +10,14 @@ import requests
 PRODUCT_URL = "https://www.gtavi-thealbum.com/en-eu/products/grand-theft-auto-vi-the-album-limited-edition-vinyl"
 
 OUT_OF_STOCK_PATTERNS = [
-    "dieser-text-kommt-garantiert-nirgendwo-vor",
+    "sold out",
+    "ausverkauft",
+    "out of stock",
+    "nicht verfügbar",
+    "nicht verfuegbar",
+    "notify me",
 ]
+
 
 
 STATE_FILE = "last_state.txt"
